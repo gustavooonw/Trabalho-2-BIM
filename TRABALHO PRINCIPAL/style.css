@@ -1,0 +1,65 @@
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#divInicio{
+    background-image: url(img/test.jpg);
+    background-size: cover;
+    height: 80px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke-color: rgb(0, 217, 255) ;
+    -webkit-text-stroke-width: 0.5px ;
+    color: rgb(23, 55, 56);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+#divTitle1{
+    background-image: linear-gradient(to left,rgb(59, 156, 165),rgb(147, 240, 189),rgb(187, 181, 100));
+    background-size: 500% 100%;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-color: rgb(148, 147, 147) ;
+    -webkit-text-stroke-width: 0.5px ;
+    border-radius: 15px;
+    position: relative;
+    animation: degrade-animado 5s infinite alternate;
+    margin: auto;
+}
+
+#divExercicios{
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+@keyframes degrade-animado {
+    0%{
+        background-position: 0%;
+
+    }
+    100%{
+        background-position: 100%;
+    }
+}

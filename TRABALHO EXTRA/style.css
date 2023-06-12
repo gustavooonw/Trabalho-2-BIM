@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#divEx{
+    margin: 0 auto;
+    background-image: linear-gradient(to left,rgb(20, 83, 48),rgb(119, 190, 152),rgb(119, 190, 152),rgb(20, 83, 48));
+    -webkit-text-stroke-color: rgb(88, 88, 88) ;
+    -webkit-text-stroke-width: 0.5px ;
+    height: auto;
+    width: 700px;
+    text-align: center;
+    padding: 20px;
+    
+}
